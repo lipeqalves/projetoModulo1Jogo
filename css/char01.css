@@ -59,6 +59,8 @@ header{
 }
 
 .personagem{
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     color: #333;
@@ -81,4 +83,16 @@ footer{
     /*background-color: #fa5246;*/
     color: linear-gradient(to top, #333333, #5f5f61, #908f92, #c3c2c7, #faf8ff);
    /* border:2px solid;*/
+}
+a{
+    text-decoration: none;
+    color:#FAF8FF;
+}
+#zeusEscolha{
+    background-image: linear-gradient(to bottom, #032b4f, #4d5878, #888ca2, #c4c3cf, #ffffff);
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 10px;
 }

@@ -59,6 +59,8 @@ header{
 }
 
 .personagem{
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     color: #333;
@@ -81,4 +83,16 @@ footer{
     /*background-color: #fa5246;*/
     color: linear-gradient(to top, #333333, #5f5f61, #908f92, #c3c2c7, #faf8ff);
    /* border:2px solid;*/
+}
+a{
+    text-decoration: none;
+    color:#FAF8FF;
+}
+#pandoraEscolha{
+    background-image: linear-gradient(to bottom, #480345, #6e4676, #9782a6, #c7c0d3, #ffffff);
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 10px;
 }

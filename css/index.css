@@ -95,3 +95,7 @@ footer{
     color: linear-gradient(to top, #333333, #5f5f61, #908f92, #c3c2c7, #faf8ff);
    /* border:2px solid;*/
 }
+a{
+    text-decoration: none;
+    color:#FAF8FF;
+}
