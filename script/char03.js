@@ -1,7 +1,67 @@
-//emiteu
-const escolhaEpimeteu = document.querySelector("#epimeteuEscolha");
-escolhaEpimeteu.addEventListener('click', personagemEpimeteu);
-
-function personagemEpimeteu(){
-    var presente = prompt(`Zeus esta tentando se vingar, e envia um presente para o emiteus, Qual o presente(Pandora)?`);
+//epimeteu
+function personagemEpimeteuEtapa1(){
+    var cont = 0;  
+    var chance = 2; 
+    while(cont < 2){
+        var presente = prompt('Digite sua resposta: ')
+        if(presente == "c"){
+            alert(`Você ta sabendo da Historia!!!`);
+            window.location.assign("../char3_html/char3etapa2.html");
+            break;
+        }else if(presente == "a" || presente == "b" || presente == "d"){
+            chance --;
+            alert(`Opção Errada!!! Você tem ${chance} chances`);
+            window.location.assign("./escolhePersonagem.html");
+            cont++;
+        }else{
+            chance --
+            alert(`Opção Invalida!!! Você tem ${chance} chances`);
+            window.location.assign("./escolhePersonagem.html");
+            cont++;
+        }
+    }
+}
+function personagemEpimeteuEtapa2(){
+    var cont = 0;  
+    var chance = 2; 
+    while(cont < 2){
+        var presente = prompt('Digite sua resposta: ')
+        if(presente == "b"){
+            alert(`Parabens!! Acertou mais uma`);
+            window.location.assign("../char3_html/char3etapa3.html");
+            break;
+        }else if(presente == "a" || presente == "d" || presente == "c"){
+            chance --;
+            alert(`Opção Errada!!! Você tem ${chance} chances`);
+            window.location.assign("../escolhePersonagem.html");
+            cont++;
+        }else{
+            chance --
+            alert(`Opção Invalida!!! Você tem ${chance} chances`);
+            window.location.assign("../escolhePersonagem.html");
+            cont++;
+        }
+    }
+}
+function personagemEpimeteuEtapa3(){
+    var cont = 0;  
+    var chance = 2; 
+    while(cont < 2){
+        var presente = prompt('Digite sua resposta: ')
+        if(presente == "d"){
+            alert(`Presente Enviado!!!`);
+            window.location.assign("../char3_html/char3final.html");
+            break;
+        }else if(presente == "a" || presente == "b" || presente == "c"){
+            chance --;
+            alert(`Opção Errada!!! Você tem ${chance} chances`);
+            window.location.assign("../escolhePersonagem.html");
+            cont++;
+        }else{
+            chance --
+            alert(`Opção Invalida!!! Você tem ${chance} chances`);
+            window.location.assign("../escolhePersonagem.html");
+            cont++;
+        }
+    }
 }
