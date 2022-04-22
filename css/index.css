@@ -48,6 +48,27 @@ header{
     margin: 10px;
     color:#FAF8FF;   
 }
+.stage{
+    padding-top: 4%;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 5px black;
+    background-image: url("../img/imgFun02.jpg");
+    opacity: 0.5;
+    width: 620px;
+    height: 360px;
+    font-size: 18px;
+    color:#480345;
+    text-align: center;
+    border-radius: 10px;
+}
+.lista{
+    display:flex;
+    flex-direction: row;
+    padding-left: 5%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
 .texto{
     font-size: 16px;
     color:#FAF8FF;
@@ -63,6 +84,7 @@ header{
 }
 
 .personagem{
+    
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     color: #333;
@@ -70,16 +92,19 @@ header{
     background-size: contain;*/
 }
 #pandora{
+    box-shadow: 10px 5px 5px black;
     margin: 5px;
     width: 200px;
     border-radius: 8px;
 }
 #zeus{
+    box-shadow: 10px 5px 5px black;
     margin: 5px;
     width: 200px;
     border-radius: 8px;
 }
 #epimeteu{
+    box-shadow: 10px 5px 5px black;
     margin: 5px;
     width: 200px;
     border-radius: 8px;

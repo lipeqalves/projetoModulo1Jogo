@@ -14,7 +14,7 @@ body{
     /*align-items: center;*/
     width: 1330px;
     height: 600px;
-    background-image: linear-gradient(to bottom, #032b4f, #4d5878, #888ca2, #c4c3cf, #ffffff);
+    background-image: linear-gradient(to bottom, #032b4f, #2c4360, #4d5d71, #6e7782, #919293);
 }
 .inicio{  
     /*background-color:  #fa5246;
@@ -22,7 +22,7 @@ body{
     display:flex;
     flex-direction: row;
     align-items:center;
-    justify-content:space-between; 
+    justify-content:space-around; 
     
 }
 nav ul{
@@ -47,17 +47,29 @@ header{
     margin: 10px;
     color:#FAF8FF;   
 }
-.texto{
-    width: 500px;
+.stage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-right: 3px;
+    padding-bottom: 2%;
+    padding-left: 3px;
+    background-repeat: no-repeat;
+    background-image: url("../img/imgFun02.jpg");
+    opacity: 0.3;
+    width: 600px;
+    height: 300px;
+    box-shadow: 10px 5px 5px black;
     font-size: 18px;
-    color:#032B4F;
-    text-align: justify;
+    color:black;
+    text-align: start;
+    border-radius: 10px;
 }
-.texto ul{
-    list-style: none;
+.lista{
+    padding-left: 5%;
     text-align: start;
 }
-
 .personagem{
     display: flex;
     flex-direction: column-reverse;
@@ -69,11 +81,11 @@ header{
 }
 
 #zeus{
+    box-shadow: 10px 5px 5px black; 
     margin: 5px;
     width: 300px;
     border-radius: 8px;
 }
-
 footer{
     display: flex;
     font-family: 'Syncopate', sans-serif;
@@ -89,7 +101,8 @@ a{
     color:#FAF8FF;
 }
 #zeusEscolha{
-    background-image: linear-gradient(to bottom, #032b4f, #4d5878, #888ca2, #c4c3cf, #ffffff);
+    box-shadow: 10px 5px 5px black;
+    background-image: linear-gradient(to bottom, #032b4f, #2c4360, #4d5d71, #6e7782, #919293);
     border-radius: 8px;
     border: none;
     padding: 5px;

@@ -47,14 +47,32 @@ header{
     margin: 10px;
     color:#FAF8FF;   
 }
-.texto{
+/*.texto{
     width: 500px;
     font-size: 18px;
     color:#480345;
     text-align: justify;
 }
-.texto ul{
-    list-style: none;
+*/
+.stage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4%;
+    background-repeat: no-repeat;
+    background-image: url("../img/imgFun02.jpg");
+    opacity: 0.5;
+    width: 620px;
+    height: 360px;
+    box-shadow: 10px 5px 5px black;
+    font-size: 22px;
+    color:#480345;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lista{
+    padding-left: 5%;
     text-align: start;
 }
 
@@ -69,6 +87,7 @@ header{
 }
 
 #pandora{
+    box-shadow: 10px 5px 5px black;
     margin: 5px;
     width: 300px;
     border-radius: 8px;
@@ -89,6 +108,7 @@ a{
     color:#FAF8FF;
 }
 #pandoraEscolha{
+    box-shadow: 10px 5px 5px black;
     background-image: linear-gradient(to bottom, #480345, #6e4676, #9782a6, #c7c0d3, #ffffff);
     border-radius: 8px;
     border: none;

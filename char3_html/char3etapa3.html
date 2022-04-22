@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/char02.css">
+    <link rel="stylesheet" href="../css/char03.css">
     <title>Stage three</title>
 </head>
 <body>
@@ -18,25 +18,26 @@
         </nav>
     </header>
     <article>
-        <div class="texto">
+        <div class="stage">
             <h1>Stage three</h1>
-            <ol>
+            <ol class="lista" >
                 <li> Qual foi o conteudo colocado dentro da caixa? </li>
             
-            <ol type="a">
+            <ol class="lista"  type="a">
                 <li>Um Anel do poder</li>
                 <li>A caixa estava vazia</li>
                 <li>Ninguem viu o que foi colocado na caixa</li>
                 <li>Todo o mau</li>
             </ol>
             </ol>
+            <button id = "epimeteuEscolha" onclick="personagemEpimeteuEtapa3()">
+                <h1>Responder</h1>
+            </button>
         </div>
         
         <div class="personagem">
-            <button id = "pandoraEscolha" onclick="personagemPandoraEtapa3()">
-                <h1>Responder</h1>
-            </button>
-            <img id="pandora" src="../img/pandora2.jpg"> 
+            
+            <img id="epimeteu" src="../img/epimeteu.jpg" >  
         </div>
     </article>
 
@@ -46,6 +47,6 @@
          Todos Direitos Reservados - Resilia 2022
         </p>
     </footer>
-    <script src="../script/char02.js"></script>
+    <script src="../script/char03.js"></script>
 </body>
 </html>
