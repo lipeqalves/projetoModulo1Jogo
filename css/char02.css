@@ -15,6 +15,7 @@ body{
     width: 1330px;
     height: 600px;
     background-image: linear-gradient(to bottom, #480345, #6e4676, #9782a6, #c7c0d3, #ffffff);
+    background-repeat: no-repeat;
 }
 .inicio{  
     /*background-color:  #fa5246;

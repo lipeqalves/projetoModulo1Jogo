@@ -3,7 +3,7 @@ function personagemEpimeteuEtapa1(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "c"){
             alert(`Você ta sabendo da Historia!!!`);
             window.location.assign("../char3_html/char3etapa2.html");
@@ -35,7 +35,7 @@ function personagemEpimeteuEtapa2(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "b"){
             alert(`Parabens!! Acertou mais uma`);
             window.location.assign("../char3_html/char3etapa3.html");
@@ -67,7 +67,7 @@ function personagemEpimeteuEtapa3(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "d"){
             alert(`Presente Enviado!!!`);
             window.location.assign("../char3_html/char3final.html");

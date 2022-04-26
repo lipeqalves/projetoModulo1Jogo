@@ -3,7 +3,7 @@ function personagemZeusEtapa1(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "c"){
             alert(`Parabéns!!! Você esta sabendo da Historia.`);
             window.location.assign("../html/char1etapa2.html");
@@ -36,7 +36,7 @@ function personagemZeusEtapa2(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "b"){
             alert(`Parabens!! Acertou mais uma`);
             window.location.assign("../html/char1etapa3.html");
@@ -68,7 +68,7 @@ function personagemZeusEtapa3(){
     var cont = 0;  
     var chance = 2; 
     while(cont < 2){
-        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ')
+        var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
         if(presente == "c"){
             alert(`Parabens!!! A História de ZEUS foi concluída`);
             window.location.assign("../html/char1final.html");

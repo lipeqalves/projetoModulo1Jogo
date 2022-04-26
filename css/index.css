@@ -1,12 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
-
+@media only screen and (max-device-width: 700px) {
+   
+    .conteiner_img{ display: flex;
+                    align-items:center;
+                    justify-content: start;
+                    flex-direction: column;}
+    
+    }
 *{
     padding:0%;
     margin:0%;
 }
 body{
-    
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -15,7 +21,9 @@ body{
     width: 1330px;
     height: 600px;
     background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
 }
+
 .inicio{  
     /*background-color:  #fa5246;
     /*border:2px solid;*/
@@ -88,34 +96,19 @@ header{
     align-items:center;
     justify-content: space-around;
 }
-
 .personagem{
-    
     text-align: center;
     font-family: 'Syncopate', sans-serif;
     color: #333;
     /*border: solid 2px #FAF8FF;
     background-size: contain;*/
 }
-#pandora{
+.personagem_img{
     box-shadow: 10px 5px 5px black;
     margin: 5px;
     width: 200px;
-    border-radius: 8px;
+    border-radius: 8px;   
 }
-#zeus{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 200px;
-    border-radius: 8px;
-}
-#epimeteu{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 200px;
-    border-radius: 8px;
-}
-
 footer{
     display: flex;
     font-family: 'Syncopate', sans-serif;
