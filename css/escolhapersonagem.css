@@ -90,30 +90,36 @@ header{
 }
 
 .personagem{
-    
-    text-align: center;
+    background-color: #333;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px ;
+    box-shadow: 3px 3px 10px rgba(0,0,0, .1);
+    position: relative;
+    overflow: hidden;
+}
+.escolhe_personagem{
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: .6;
+    transition: transform .75s;    
+}
+.personagem:hover .escolhe_personagem{
+    transform: scale(1.15);
+}
+.titulo{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
     font-family: 'Syncopate', sans-serif;
-    color: #333;
-    /*border: solid 2px #FAF8FF;
-    background-size: contain;*/
-}
-#pandora{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 200px;
-    border-radius: 8px;
-}
-#zeus{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 200px;
-    border-radius: 8px;
-}
-#epimeteu{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 200px;
-    border-radius: 8px;
+    font-size: 20px;
+    text-shadow: 0 0 1px rgba(0,0,0, .5);
+    color:#FAF8FF;
 }
 
 footer{
