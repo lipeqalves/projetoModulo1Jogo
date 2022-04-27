@@ -1,34 +1,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
-@media only screen and (max-device-width: 700px) {
+/*@media only screen and (max-device-width: 700px) {
    
     .conteiner_img{ display: flex;
                     align-items:center;
                     justify-content: start;
                     flex-direction: column;}
     
-    }
+    }*/
 *{
     padding:0%;
     margin:0%;
 }
+::-webkit-scrollbar{
+    display: none;
+}
+
 body{
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /*align-items: center;*/
-    width: 1330px;
-    height: 600px;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
 }
 
 .inicio{  
-    /*background-color:  #fa5246;
-    /*border:2px solid;*/
     display:flex;
-    flex-direction: row;
     align-items:center;
     justify-content:space-between; 
     
@@ -43,32 +42,16 @@ nav ul li {
     /*background-color: #faae2b;*/
 }
 article{
-    
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
-    /*border: solid 2px;*/
-    
 }
 header{
     font-family: 'Syncopate', sans-serif;
     margin: 10px;
     color:#FAF8FF;   
 }
-.stage{
-    padding-top: 4%;
-    background-repeat: no-repeat;
-    box-shadow: 10px 5px 5px black;
-    background-image: url("../img/imgFun02.jpg");
-    opacity: 0.5;
-    width: 620px;
-    height: 360px;
-    font-size: 18px;
-    color:#480345;
-    text-align: center;
-    border-radius: 10px;
-}
+
 .lista{
 
     display:flex;
@@ -84,16 +67,15 @@ header{
     font-size: 22px;
 }
 .texto{
-    font-size: 16px;
+    
     color:#FAF8FF;
     text-align: center;
+    margin-right: 30px;
 }
 .conteiner_img{
-    margin: 20px;
-    width: 1330px;
-    /*border: solid 2px #FAF8FF;*/
+    margin: 10px;
+    width: 100%;
     display: flex; 
-    align-items:center;
     justify-content: space-around;
 }
 .personagem{
@@ -110,14 +92,10 @@ header{
     border-radius: 8px;   
 }
 footer{
+    margin-bottom: 0.5em;
     display: flex;
     font-family: 'Syncopate', sans-serif;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    /*background-color: #fa5246;*/
-    color: linear-gradient(to top, #333333, #5f5f61, #908f92, #c3c2c7, #faf8ff);
-   /* border:2px solid;*/
+    justify-content: center;  
 }
 a{
     text-decoration: none;

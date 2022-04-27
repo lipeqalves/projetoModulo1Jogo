@@ -5,6 +5,9 @@
     padding:0%;
     margin:0%;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     
     padding: 15px;
@@ -12,8 +15,8 @@ body{
     justify-content: space-between;
     flex-direction: column;
     /*align-items: center;*/
-    width: 1330px;
-    height: 600px;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #b70000, #c84216, #d86730, #e8884c, #f7a86c);
     background-repeat: no-repeat;
 }
@@ -56,8 +59,8 @@ header{
     background-repeat: no-repeat;
     background-image: url("../img/imgFun02.jpg");
     opacity: 0.5;
-    width: 620px;
-    height: 360px;
+    width: 26em;
+    height: 16em;
     font-size: 22px;
     box-shadow: 10px 5px 5px black;
     color:#480345;
@@ -82,19 +85,15 @@ header{
 #epimeteu{
     box-shadow: 10px 5px 5px black;
     margin: 5px;
-    width: 300px;
+    width: 17em;
     border-radius: 8px;
 }
 
 footer{
+    margin-bottom: 0.5em;
     display: flex;
     font-family: 'Syncopate', sans-serif;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    /*background-color: #fa5246;*/
-    color: linear-gradient(to top, #333333, #5f5f61, #908f92, #c3c2c7, #faf8ff);
-   /* border:2px solid;*/
+    justify-content: center;  
 }
 a{
     text-decoration: none;
