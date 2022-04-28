@@ -9,102 +9,86 @@
     display: none;
 }
 body{
-    
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /*align-items: center;*/
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #b70000, #c84216, #d86730, #e8884c, #f7a86c);
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
 }
-.inicio{  
-    /*background-color:  #fa5246;
-    /*border:2px solid;*/
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content:space-between; 
+    .inicio{  
+        font-family: 'Syncopate', sans-serif;
+        margin: 10px;
+        color:#FAF8FF;  
+        display:flex;
+        align-items:center;
+        justify-content:space-between;  
+    }
+    nav ul li{
+        list-style: none;
+        margin: 10px;
+    }
+    article{
+        display:flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        justify-content:space-around;
+        /*border: solid 2px;*/
+        
+    }
+    .stage{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        padding-top: 3em;
+        padding-right: 1em;
+        padding-bottom: 3em;
+        padding-left: 1em;
+        background-repeat: no-repeat;
+        background-image: url("../img/imgFun02.jpg");
+        opacity: 0.6;
+        width: 32em;
+        height: 16em;
+        box-shadow: 10px 5px 5px black;
+        font-size: 18px;
+        color:black;
+        border-radius: 10px;
+    }
     
-}
-nav ul{
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-}
-nav ul li {
-    margin: 10px;
-    /*background-color: #faae2b;*/
-}
-article{
-    display:flex;
-    flex-direction:row-reverse;
-    align-items: center;
-    justify-content:space-around;
-    /*border: solid 2px;*/
+    .lista{
+        padding-left: 5%;
+        text-align: start;
+    }
     
-}
-header{
-    font-family: 'Syncopate', sans-serif;
-    margin: 10px;
-    color:#FAF8FF;   
-}
-.stage{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 4%;
-    background-repeat: no-repeat;
-    background-image: url("../img/imgFun02.jpg");
-    opacity: 0.5;
-    width: 26em;
-    height: 16em;
-    font-size: 22px;
-    box-shadow: 10px 5px 5px black;
-    color:#480345;
-    text-align: center;
-    border-radius: 10px;
-}
-.lista{
-    padding-left: 5%;
-    text-align: start;
-}
-
-.personagem{
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    font-family: 'Syncopate', sans-serif;
-    color: #333;
-    /*border: solid 2px #FAF8FF;
-    background-size: contain;*/
-}
-
-#epimeteu{
-    box-shadow: 10px 5px 5px black;
-    margin: 5px;
-    width: 17em;
-    border-radius: 8px;
-}
-
-footer{
-    margin-bottom: 0.5em;
-    display: flex;
-    font-family: 'Syncopate', sans-serif;
-    justify-content: center;  
-}
-a{
-    text-decoration: none;
-    color:#FAF8FF;
-}
-#epimeteuEscolha{
-    box-shadow: 10px 5px 5px black;
-    background-image: linear-gradient(to bottom, #b70000, #c84216, #d86730, #e8884c, #f7a86c);
-    border-radius: 8px;
-    border: none;
-    padding: 5px;
-    font-family: 'Syncopate', sans-serif;
-    font-size: 10px;
-}
+    .personagem{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    #epimeteu{
+        box-shadow: 10px 5px 5px black; 
+        margin: 5px;
+        width: 18em;
+        border-radius: 8px;
+    }
+    
+    footer{
+        margin-bottom: 0.5em;
+        display: flex;
+        font-family: 'Syncopate', sans-serif;
+        justify-content: center;   
+    }
+    a{
+        text-decoration: none;
+        color:#FAF8FF;
+    }
+    #epimeteuEscolha{
+        box-shadow: 10px 5px 5px black;
+        background-image: linear-gradient(to bottom, #032b4f, #2c4360, #4d5d71, #6e7782, #919293);
+        border-radius: 8px;
+        border: none;
+        padding: 0.2em;
+        font-family: 'Syncopate', sans-serif;
+    }

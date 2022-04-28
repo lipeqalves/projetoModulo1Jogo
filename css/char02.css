@@ -9,20 +9,18 @@
     display: none;
 }
 body{
-    
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    /*align-items: center;*/
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom, #480345, #6e4676, #9782a6, #c7c0d3, #ffffff);
     background-repeat: no-repeat;
 }
 .inicio{  
-    /*background-color:  #fa5246;
-    /*border:2px solid;*/
+    font-family: 'Syncopate', sans-serif;
+    margin: 10px;
+    color:#FAF8FF;
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -32,11 +30,6 @@ body{
 nav ul{
     list-style: none;
     display:flex;
-    flex-direction: row;
-}
-nav ul li {
-    margin: 10px;
-    /*background-color: #faae2b;*/
 }
 article{
     display:flex;
@@ -46,32 +39,24 @@ article{
     /*border: solid 2px;*/
     
 }
-header{
-    font-family: 'Syncopate', sans-serif;
-    margin: 10px;
-    color:#FAF8FF;   
-}
-/*.texto{
-    width: 500px;
-    font-size: 18px;
-    color:#480345;
-    text-align: justify;
-}
-*/
+
 .stage{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 4%;
+    align-content: space-between;
+    align-items: center;
+    padding-top: 3em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    padding-left: 1em;
     background-repeat: no-repeat;
     background-image: url("../img/imgFun02.jpg");
-    opacity: 0.5;
-    width: 620px;
-    height: 360px;
+    opacity: 0.6;
+    width: 32em;
+    height: 16em;
     box-shadow: 10px 5px 5px black;
-    font-size: 22px;
-    color:#480345;
-    text-align: center;
+    font-size: 18px;
+    color:black;
     border-radius: 10px;
 }
 
@@ -83,17 +68,12 @@ header{
 .personagem{
     display: flex;
     flex-direction: column-reverse;
-    text-align: center;
-    font-family: 'Syncopate', sans-serif;
-    color: #333;
-    /*border: solid 2px #FAF8FF;
-    background-size: contain;*/
 }
 
 #pandora{
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px black; 
     margin: 5px;
-    width: 300px;
+    width: 18em;
     border-radius: 8px;
 }
 
@@ -101,7 +81,7 @@ footer{
     margin-bottom: 0.5em;
     display: flex;
     font-family: 'Syncopate', sans-serif;
-    justify-content: center;  
+    justify-content: center;   
 }
 a{
     text-decoration: none;
@@ -109,10 +89,9 @@ a{
 }
 #pandoraEscolha{
     box-shadow: 10px 5px 5px black;
-    background-image: linear-gradient(to bottom, #480345, #6e4676, #9782a6, #c7c0d3, #ffffff);
+    background-image: linear-gradient(to bottom, #032b4f, #2c4360, #4d5d71, #6e7782, #919293);
     border-radius: 8px;
     border: none;
-    padding: 5px;
+    padding: 0.2em;
     font-family: 'Syncopate', sans-serif;
-    font-size: 10px;
 }

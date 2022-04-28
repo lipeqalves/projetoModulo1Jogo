@@ -53,7 +53,6 @@ header{
 }
 
 .lista{
-
     display:flex;
     flex-direction: row;
     padding-left: 5%;
@@ -67,7 +66,6 @@ header{
     font-size: 22px;
 }
 .texto{
-    
     color:#FAF8FF;
     text-align: center;
     margin-right: 30px;
@@ -91,7 +89,6 @@ header{
     width: 200px;
     border-radius: 8px;   
 }
-
 footer{
     margin-bottom: 0.5em;
     display: flex;
