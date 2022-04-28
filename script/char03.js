@@ -4,11 +4,11 @@ function personagemEpimeteuEtapa1(){
     var chance = 2; 
     while(cont < 2){
         var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
-        if(presente == "e"){
+        if(presente == "c"){
             alert(`Você ta sabendo da Historia!!!`);
             window.location.assign("../char3_html/char3etapa2.html");
             break;
-        }else if(presente == "a" || presente == "b" || presente == "d"|| presente == "c"){
+        }else if(presente == "a" || presente == "b" || presente == "d"|| presente == "e"){
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -56,11 +56,11 @@ function personagemEpimeteuEtapa3(){
     var chance = 2; 
     while(cont < 2){
         var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
-        if(presente == "c"){
+        if(presente == "e"){
             alert(`Presente Enviado!!!`);
             window.location.assign("../char3_html/char3final.html");
             break;
-        }else if(presente == "a" || presente == "b" || presente == "d" || presente == "e"){
+        }else if(presente == "a" || presente == "b" || presente == "d" || presente == "c"){
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
