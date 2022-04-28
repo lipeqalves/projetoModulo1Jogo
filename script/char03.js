@@ -4,11 +4,11 @@ function personagemEpimeteuEtapa1(){
     var chance = 2; 
     while(cont < 2){
         var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
-        if(presente == "c"){
+        if(presente == "e"){
             alert(`Você ta sabendo da Historia!!!`);
             window.location.assign("../char3_html/char3etapa2.html");
             break;
-        }else if(presente == "a" || presente == "b" || presente == "d"){
+        }else if(presente == "a" || presente == "b" || presente == "d"|| presente == "c"){
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -18,12 +18,6 @@ function personagemEpimeteuEtapa1(){
             window.location.assign("../finalDoJogo.html");
             break;
         }else if(presente = ""){
-            chance --;
-            alert(`Opção Errada!!! Você tem ${chance} chances`);
-            window.location.assign("../finalDoJogo.html");
-            cont++;
-        }
-        else{
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -40,7 +34,7 @@ function personagemEpimeteuEtapa2(){
             alert(`Parabens!! Acertou mais uma`);
             window.location.assign("../char3_html/char3etapa3.html");
             break;
-        }else if(presente == "a" || presente == "d" || presente == "c"){
+        }else if(presente == "a" || presente == "d" || presente == "c" || presente == "e"){
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -50,12 +44,6 @@ function personagemEpimeteuEtapa2(){
             window.location.assign("../finalDoJogo.html");
             break;
         }else if(presente = ""){
-            chance --;
-            alert(`Opção Errada!!! Você tem ${chance} chances`);
-            window.location.assign("../finalDoJogo.html");
-            cont++;
-        }
-        else{
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -68,11 +56,11 @@ function personagemEpimeteuEtapa3(){
     var chance = 2; 
     while(cont < 2){
         var presente = prompt('Digite sua resposta para continuar ou digite sair para finalizar o jogo ').toLowerCase();
-        if(presente == "d"){
+        if(presente == "c"){
             alert(`Presente Enviado!!!`);
             window.location.assign("../char3_html/char3final.html");
             break;
-        }else if(presente == "a" || presente == "b" || presente == "c"){
+        }else if(presente == "a" || presente == "b" || presente == "d" || presente == "e"){
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
@@ -82,12 +70,6 @@ function personagemEpimeteuEtapa3(){
             window.location.assign("../finalDoJogo.html");
             break;
         }else if(presente = ""){
-            chance --;
-            alert(`Opção Errada!!! Você tem ${chance} chances`);
-            window.location.assign("../finalDoJogo.html");
-            cont++;
-        }
-        else{
             chance --;
             alert(`Opção Errada!!! Você tem ${chance} chances`);
             window.location.assign("../finalDoJogo.html");
